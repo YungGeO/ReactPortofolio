@@ -23,8 +23,7 @@ export const Avatar = () => {
                 alt="avatar photo"
                 className={styles.avatarImg}
             />
-            <div className={StyleSheet.topBlur} />
-            <div className={StyleSheet.botomBlur} />
+
         </section>
 
     );

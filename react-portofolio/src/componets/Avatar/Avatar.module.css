@@ -17,6 +17,7 @@
     align-items: flex-start;
     color: var(--color-text);
     z-index: 1;
+
 }
 
 .title {
@@ -38,7 +39,7 @@
 
 .contactBtn {
     text-decoration: none;
-    background-color: var(--color-primary);
+    background-color: rgba(170, 116, 116, 0.863);
     color: var(--color-text);
     border-radius: 70px;
     font-size: 30px;
@@ -48,7 +49,7 @@
 }
 
 .avatarImg {
-    width: 50%;
+    width: 40%;
     z-index: 1;
     border-radius: 600px;
     animation-name: floating;
@@ -68,5 +69,16 @@
 
     100% {
         transform: translate(0, -0px);
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .content {
+        align-items: center;
     }
 }
