@@ -1,13 +1,26 @@
 import React from "react";
+import styles from "./Avatar.module.css";
+import { getImageUrl } from "../../utils";
 
 
 
 export const Avatar = () => {
 
 
-    return (<section>
-        <div><H1> TEST</H1></div>
-    </section>
+    return (
+        <section className={styles.container}>
+            <div className={styles.content}>
+                <h1 className={styles.title}> TEST</h1>
+                <p className={styles.description}>Hi i am George i am a junior software developer
+                    with no job Experience but with thirst to learn
+                    how to become a great programmer.
+                </p>
+                <a className={styles.contactBtn} href="mailto:zachariasg7@hotmail.gr">Contact Me</a>
+            </div>
+            <img src={getImageUrl("avatar/me.jpeg")} alt="avatar photo" />
+            <div className={StyleSheet.topBlur} />
+            <div className={StyleSheet.botomBlur} />
+        </section>
 
     );
 };
