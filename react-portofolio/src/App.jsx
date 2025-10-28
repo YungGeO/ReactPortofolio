@@ -8,6 +8,7 @@ function App() {
     <div className={styles.App}>
       <Navbar />
       <Avatar />
+      <About />
     </div>
   )
 }
