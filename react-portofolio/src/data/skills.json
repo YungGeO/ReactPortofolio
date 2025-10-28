@@ -5,46 +5,46 @@
     },
     {
         "title": "CSS",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/css.png"
     },
     {
         "title": "REACT",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/react.png"
     },
     {
         "title": "JAVASCRIPT",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/javascript.png"
     },
     {
         "title": "PHP",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/php.png"
     },
     {
         "title": "MYSQL",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/mysql.png"
     },
     {
         "title": "C",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/c.png"
     },
     {
         "title": "C#",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/c#.png"
     },
     {
         "title": "JAVA",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/java.png"
     },
     {
         "title": "PYTHON",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/python.png"
     },
     {
         "title": "GIT",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/git.png"
     },
     {
         "title": "PROLOG",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/prolog.png"
     }
 ]

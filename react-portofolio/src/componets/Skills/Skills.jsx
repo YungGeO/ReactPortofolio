@@ -5,12 +5,12 @@ import styles from "./Skills.module.css";
 
 export const Skills = () => {
     return (
-        <section >
-            <div >
+        <section className={styles.container}>
+            <div className={styles.content}>
                 <div className={styles.skills}>
                     {skills.map((skill, id) => (
                         <div key={id} className={styles.skill}>
-                            <div >
+                            <div className={styles.skillImageContainer}>
                                 <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                             </div>
                             <p>{skill.title}</p>
