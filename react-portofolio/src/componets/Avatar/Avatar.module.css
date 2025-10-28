@@ -51,7 +51,7 @@
 .avatarImg {
     width: 40%;
     z-index: 1;
-    border-radius: 600px;
+    border-radius: 100px;
     animation-name: floating;
     animation-duration: 5s;
     animation-iteration-count: infinite;
