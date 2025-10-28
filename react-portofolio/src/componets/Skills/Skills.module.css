@@ -3,16 +3,24 @@
 .container {
     color: var(--color-text);
     margin-top: 70px;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
 
 }
 
 .title {
     color: var(--color-text);
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
-    letter-spacing: 1.70px;
+    letter-spacing: 1.7px;
     text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+
+    display: block;
+
+    margin: 0 auto;
 }
 
 .content {
@@ -23,10 +31,10 @@
 }
 
 .skills {
-    width: 45%;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 70px;
 }
 
 .skillsImageContainer {
