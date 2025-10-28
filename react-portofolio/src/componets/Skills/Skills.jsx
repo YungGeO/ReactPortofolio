@@ -1,13 +1,23 @@
 import React from "react";
-import Skills from "../../data/skills.json";
+import skills from "../../data/skills.json";
 import { getImageUrl } from "../../utils";
+import styles from "./Skills.module.css";
 
 export const Skills = () => {
-
     return (
         <section >
-
-
+            <div >
+                <div className={styles.skills}>
+                    {skills.map((skill, id) => (
+                        <div key={id} className={styles.skill}>
+                            <div >
+                                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                            </div>
+                            <p>{skill.title}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </section>
     );
 };
