@@ -28,3 +28,23 @@
     flex-wrap: wrap;
     gap: 10px;
 }
+
+.skillsImageContainer {
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+}
+
+.skillImageContainer img {
+    width: 75px;
+}
+
+.skill p {
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+}
