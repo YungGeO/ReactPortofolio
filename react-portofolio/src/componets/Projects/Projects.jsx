@@ -5,7 +5,7 @@ import styles from "./Projects.module.css";
 import { ProjectCard } from "./ProjectCard";
 
 
-// https://georgethema.infinityfreeapp.com/
+
 export const Projects = () => {
     return (
         <section className={styles.container} id="projects">
