@@ -1,11 +1,13 @@
 import React from "react";
-import skills from "../../data/skills.json";
+//import projects from "../../data/projects.json";
 import { getImageUrl } from "../../utils";
-import styles from "./Skills.module.css";
+import styles from "./Projects.module.css";
 
-export const Skills = () => {
+
+// https://georgethema.infinityfreeapp.com/
+export const Projects = () => {
     return (
-        <section className={styles.container} id="skills">
+        <section className={styles.container} id="projects">
             <h2 className={styles.title}>Projects</h2>
 
         </section>

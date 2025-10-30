@@ -4,7 +4,7 @@ import { Navbar } from "./componets/NavBar/NavBar";
 import { Avatar } from "./componets/Avatar/Avatar";
 import { About } from "./componets/About/About";
 import { Skills } from "./componets/Skills/Skills";
-// https://georgethema.infinityfreeapp.com/
+import { Projects } from "./componets/Projects/Projects";
 function App() {
 
   return (
@@ -13,6 +13,7 @@ function App() {
       <Avatar />
       <About />
       <Skills />
+      <Projects />
     </div>
   )
 }
