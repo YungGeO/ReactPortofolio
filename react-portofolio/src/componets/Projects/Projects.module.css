@@ -1,0 +1,17 @@
+@import "../../vars.css";
+
+
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {}
