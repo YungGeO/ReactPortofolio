@@ -1,10 +1,12 @@
 
 import styles from "./App.module.css";
 import { Navbar } from "./componets/NavBar/NavBar";
+import { Contact } from "./componets/Contact/Contact";
 import { Avatar } from "./componets/Avatar/Avatar";
 import { About } from "./componets/About/About";
 import { Skills } from "./componets/Skills/Skills";
 import { Projects } from "./componets/Projects/Projects";
+
 function App() {
 
   return (
@@ -14,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   )
 }
