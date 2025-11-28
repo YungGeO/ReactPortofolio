@@ -7,11 +7,10 @@
             "WordPress",
             "html",
             "css",
-            "MYSQL",
-            "PHP"
+            "MYSQL"
         ],
         "demo": "https://georgethema.infinityfreeapp.com/",
-        "source": "https://github.com/YungGeO/My-Thema"
+        "source": "https://github.com/GeorgiosZacharias/My-Thema"
     },
     {
         "title": "Student grade management system",
@@ -23,6 +22,48 @@
             "co pilot use",
             "back-end "
         ],
-        "source": "https://github.com/YungGeO/Assigment-1/tree/main"
+        "source": "https://github.com/GeorgiosZacharias/Assigment-1/tree/main"
+    },
+     {
+        "title": "Favorite Coctails ",
+        "imageSrc": "projects/project.png",
+        "description": "University Team Java Project,using maven,design patterns and api calls",
+        "skills": [
+            "Java",
+            "Maven",
+            "Api calls",
+            "back-end ",
+            "design patterns"
+        ],
+        "source": "https://github.com/GeorgiosZacharias/Project"
+    },
+     {
+        "title": "University Project  Full-Stack PHP Web Application(e-shop)",
+        "imageSrc": "projects/project.png",
+        "description": "a full-stack system using PHP, MySQL, HTML/CSS, and JavaScript. ",
+        "skills": [
+            "Xampp",
+            "html",
+            "css",
+            "PHP",
+            "team work",
+            "databases",
+            "bootstrap",
+            "CRUD operations"
+        ],
+        "source": "https://github.com/GeorgiosZacharias/Mobile-Phones-Project"
+    },
+     {
+        "title": "Favorite Coctails ",
+        "imageSrc": "projects/project.png",
+        "description": "University Team Java Project,using maven,design patterns and api calls",
+        "skills": [
+            "Java",
+            "Maven",
+            "Api calls",
+            "back-end ",
+            "design patterns"
+        ],
+        "source": "https://github.com/GeorgiosZacharias/Project"
     }
 ]
