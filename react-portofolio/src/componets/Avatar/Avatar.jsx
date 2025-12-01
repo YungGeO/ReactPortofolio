@@ -4,6 +4,7 @@ import { getImageUrl } from "../../utils";
 
 export const Avatar = () => {
     return (
+        /* Button group container */
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm George</h1>
